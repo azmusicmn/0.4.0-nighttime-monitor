@@ -48,10 +48,11 @@ body {
 
 .bgStatus {
     float: right;
-    font-size: 900%;
+    font-size: 1500%;
     margin-right: 25px;
     text-align: right;
     white-space: nowrap;
+    vertical-align: bottom;
 }
 .bgStatus .currentBG {
     text-decoration: line-through;
