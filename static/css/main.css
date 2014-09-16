@@ -42,7 +42,7 @@ body {
 
 .status {
     font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-    height: 500px;
+    height: 800px;
     vertical-align: middle;
 }
 
@@ -107,6 +107,7 @@ body {
     fill: none;
     height: 0px;
     width: 25%;
+    top: 1000px;
     vertical-align: bottom;
 }
 
