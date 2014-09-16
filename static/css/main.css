@@ -28,6 +28,18 @@ body {
 /* END: Dolphin/Stock Android Browser Fix */
 
 
+.container {
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    top: 45px;
+    width: 100%;
+    z-index: 2;
+}
+
 .status {
     font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
     height: 180px;
@@ -38,7 +50,7 @@ body {
     float: right;
     font-size: 1800%;
     margin-right: 25px;
-    text-align: center;
+    text-align: right;
     white-space: nowrap;
 }
 .bgStatus .currentBG {
@@ -62,7 +74,7 @@ body {
     padding-top: 15px;
 }
 .timebox {
-    text-align: center;
+    text-align: left;
     width: 250px;
 }
 .timeOther {
@@ -92,7 +104,7 @@ body {
 }
 #chartContainer svg {
     height: calc(100vh - (180px + 45px));
-    width: 100%;
+    width: 25%;
     top: calc(45px + 180px);
 }
 
