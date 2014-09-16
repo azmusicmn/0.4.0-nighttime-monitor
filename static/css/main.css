@@ -16,13 +16,6 @@ body {
 }
 
 
-/* BEGIN: Dolphin/Stock Android Browser Fix */
-@media (max-width: 700px) {
-    .bgStatus {
-        width: 100% !important;
-    }
-}
-
 .status {
     font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
     height: 180px;
