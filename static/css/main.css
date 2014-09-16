@@ -24,9 +24,9 @@ body {
 
 .bgStatus {
     float: right;
-    font-size: 2400%;
+    font-size: 1800%;
     margin-right: 25px;
-    text-align: center;
+    text-align: right;
     white-space: nowrap;
 }
 .bgStatus .currentBG {
@@ -46,11 +46,11 @@ body {
 }
 
 .time {
-    font-size: 1500%;
-    padding-top: 15px;
+    font-size: 1200%;
+    padding-top: 0px;
 }
 .timebox {
-    text-align: center;
+    text-align: left;
     width: 250px;
 }
 .timeOther {
