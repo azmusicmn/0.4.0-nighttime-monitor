@@ -31,12 +31,12 @@ body {
 .container {
     bottom: 0;
     display: block;
-    height: 25%;
+    height: 100%;
     left: 0;
     margin: 0;
     padding: 0;
     top: 45px;
-    width: 25%;
+    width: 100%;
     z-index: 2;
 }
 
@@ -48,7 +48,7 @@ body {
 
 .bgStatus {
     float: right;
-    font-size: 1800%;
+    font-size: 900%;
     margin-right: 25px;
     text-align: right;
     white-space: nowrap;
@@ -70,7 +70,7 @@ body {
 }
 
 .time {
-    font-size: 1200%;
+    font-size: 600%;
     padding-top: 15px;
 }
 .timebox {
@@ -103,9 +103,9 @@ body {
     right:0;
 }
 #chartContainer svg {
-    height: calc(100vh - (180px + 45px));
+    height: 0px;
     width: 25%;
-    top: calc(45px + 180px);
+    vertical-align: bottom;
 }
 
 .axis path,
