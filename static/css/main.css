@@ -104,6 +104,7 @@ body {
     right:0;
 }
 #chartContainer svg {
+    fill: none;
     height: 0px;
     width: 25%;
     vertical-align: bottom;
