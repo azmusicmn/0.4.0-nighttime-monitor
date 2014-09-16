@@ -48,7 +48,7 @@ body {
 
 .bgStatus {
     float: right;
-    font-size: 900%;
+    font-size: 1800%;
     margin-right: 25px;
     text-align: center;
     white-space: nowrap;
@@ -70,7 +70,7 @@ body {
 }
 
 .time {
-    font-size: 600%;
+    font-size: 1200%;
     padding-top: 15px;
 }
 .timebox {
@@ -93,41 +93,7 @@ body {
     background: #c00 !important;
 }
 
-#chartContainer {
-    background: #111;
-    bottom:0;
-    display: block;
-    height:auto;
-    left:0;
-    position:absolute;
-    right:0;
-}
-#chartContainer svg {
-    height: calc(100vh - (180px + 45px));
-    width: 100%;
-    top: calc(45px + 180px);
-}
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #ffffff;
-  shape-rendering: crispEdges;
-}
-
-.open-right, .open-left {
-  shape-rendering: crispEdges;
-}
-.grid path, .axis line {
-  stroke: #808080;
-  stroke-opacity: 1;
-}
-
-.brush .extent {
-  stroke: #ffffff;
-  stroke-opacity: 0;
-  fill-opacity: 0;
-}
 
 
 #noButton {
@@ -247,7 +213,7 @@ div.tooltip {
     #bgButton {display:block;} */
 
     .bgStatus {
-        font-size: 900%;
+        font-size: 1800%;
         float: none;
         margin: 0 auto;
         padding: 0;
@@ -255,7 +221,7 @@ div.tooltip {
         width: 100vw;
     }
     .status.toolbarClosed .bgStatus {
-        font-size: 990%;
+        font-size: 1800%;
         margin-top: 10px;
     }
     #bgButton {
